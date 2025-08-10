@@ -27,7 +27,7 @@ Intel Data Processor is an advanced tool for processing and analyzing military i
 
 ### 1. Clone the Project
 ```bash
-git clone https://github.com/yourusername/intel-data-processor.git
+git clone https://github.com/benjamin20000/intel-data-processor.git
 cd intel-data-processor
 ```
 
