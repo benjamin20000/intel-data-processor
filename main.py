@@ -1,10 +1,14 @@
+from mission_processor import load_mission_data
 from mission_processor import load_mission_data, filter_by_status, count_by_priority
 from personnel_analyzer import load_personnel_data, filter_by_clearance, group_by_unit
 from report_generator import generate_mission_summary, generate_personnel_report
+    
+
 def main():
     print("=== ARMY INTELLIGENCE DATA PROCESSOR ===\n")
     # Load data
     missions = load_mission_data()
+    print(f"Loaded {len(missions)} missions")
     personnel = load_personnel_data()
     while True:
         print("1. Mission Summary")
@@ -33,3 +37,4 @@ def main():
             print()
 if __name__ == "__main__":
     main()
+
